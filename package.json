@@ -1,0 +1,15 @@
+{
+  "name": "playgamesfromdiscord",
+  "version": "0.0.1",
+  "description": "This package allows you to play any games using a simple discord chat! Isn't it awesome?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "_Guigui",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "node-key-sender": "^1.0.11"
+  }
+}
