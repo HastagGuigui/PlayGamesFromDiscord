@@ -1,0 +1,27 @@
+{
+    "token": "Insert your token",
+    "keymapcontrols": {
+        "DPadUp": "any key",
+        "DPadLeft": "any key",
+        "DPadDown": "any key",
+        "DPadRight": "any key",
+        "JoystickUp": "any key",
+        "JoystickLeft": "any key",
+        "JoystickRight": "any key",
+        "JoystickDown": "any key",
+        "A": "any key",
+        "B": "any key",
+        "X": "any key",
+        "Y": "any key",
+        "Start": "any key",
+        "Select": "any key",
+        "L": "any key",
+        "R": "any key",
+        "ZL": "any key",
+        "ZR": "any key"
+    },
+    "globalDelay": 1000,
+    "pressDelay": 500,
+    "delayBetweenPresses" : 2000,
+    "prefix": "prefix"
+}
