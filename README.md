@@ -23,3 +23,33 @@ config.json:
 ~~I knew I couldn't be that good!~~ 
 Uh, uh, well there's the issue tab, and there's my discord account: @_Guigui [YT]#2933
 This is still in developpement, and I still look at the suggestions!
+
+# Oh and, what are the available commands?
+I was wondering if anybody's going to ask... Anyways, here they are! (prefix will be shown as "!")
+!press <key> [number of times] is going to... well... press a key a specific number of times. (alias: !p)
+!hold <key> [delay in seconds] will hold a key for a specific delay in seconds, and it works with decimals. (alias: !h)
+  
+# And the keys?
+Well:
+|Available key|Corresponding config function|
+|--|--|
+|haut (up in french)|DPadUp|
+|up|JoystickUp (is most likely an alternative to haut if you have not a lot of buttons to map)|
+|gauche (left in french)|DPadLeft|
+|left|JoystickLeft|
+|droite (right in french)|DPadRight|
+|right|JoystickRight|
+|bas (down in french)|DPadDown|
+|down|JoystickDown|
+|a|A|
+|b|B|
+|x|X|
+|y|Y|
+|l|L|
+|r|R|
+|zl|ZL|
+|zr|ZR|
+|start|Start|
+|select|Select|
+
+Whoo. I really need to add custom keys.
