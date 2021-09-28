@@ -1,6 +1,6 @@
 {
   "name": "playgamesfromdiscord",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This package allows you to play any games using a simple discord chat! Isn't it awesome?",
   "main": "index.js",
   "scripts": {

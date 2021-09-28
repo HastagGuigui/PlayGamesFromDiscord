@@ -7,6 +7,17 @@ client.on('ready', () => {
     console.log("o u i")
 });
 
+/*
+Need to make an update for custom keys:
+add an array in keymapControls in the config.json
+every element will be built like:
+{
+    "command":"up",
+    "keypress":"Z"
+}
+(cool guy uses ZQSD :sunglasses:)
+*/
+
 client.on('message', message => {
     var prefix = config.prefix
     if (!message.content.startsWith(prefix)) return;
@@ -58,7 +69,7 @@ client.on('message', message => {
 client.login(config.token)
 
 function sendKeyFromDiscord(x, i, limit) {
-    switch (x) {
+    /*switch (x) {
         case "haut":
             ks.sendKey(config.keymapcontrols.DPadUp);
             break
@@ -127,5 +138,12 @@ function sendKeyFromDiscord(x, i, limit) {
         default:
             i = limit;
             break;
-}
+    }*/
+    var command = config.keymapControls.find(element => element.command == x)
+    if(!command){
+        i = limit;
+        return;
+    }else{
+        ks.sendKey(command.keypress);
+    }
 }
